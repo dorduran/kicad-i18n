@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 21:33+0100\n"
-"PO-Revision-Date: 2019-03-22 00:07+0000\n"
+"PO-Revision-Date: 2019-12-27 01:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: Erkut Uygun <erkut.uygun@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: tr\n"
@@ -51,13 +51,13 @@ msgid "Offset"
 msgstr "Göreli konum"
 
 msgid "Preview"
-msgstr "Önizleme"
+msgstr "Ön izleme"
 
 msgid "Change to isometric perspective"
 msgstr "Eş ölçülü görünüme değiştir"
 
 msgid "Reload board and 3D models"
-msgstr "Tahtayı ve 3B modelleri yeniden yükle"
+msgstr "Kartı ve 3B modelleri yeniden yükle"
 
 msgid "no such file"
 msgstr "böyle bir dosya yok"
@@ -66,13 +66,13 @@ msgid "failed to open file"
 msgstr "dosya açılamadı"
 
 msgid "Build board body"
-msgstr "Tahta gövdesini yapılandır"
+msgstr "Kart gövdesini yapılandır"
 
 msgid "Create layers"
 msgstr "Katmanları oluştur"
 
 msgid "Cannot determine the board outline."
-msgstr "Tahtanın taslağı belirlenemiyor"
+msgstr "Kartın çerçevesi belirlenemiyor."
 
 msgid "Create tracks and vias"
 msgstr "Yolları ve bağları oluştur"
@@ -90,11 +90,11 @@ msgid "Build Tech layers"
 msgstr "Teknik katmanları yapılandır"
 
 msgid "Build BVH for holes and vias"
-msgstr "Deikler ve bağlar için Kör Bağlantı Delikleri yapılandır"
+msgstr "Delikler ve bağlar için Kör Bağlantı Delikleri yapılandır"
 
 #, c-format
 msgid "Render time %.0f ms ( %.1f fps)"
-msgstr "Çeviri süresi %.0f ms ( %.1f fps)"
+msgstr "Görüntüleme süresi %.0f ms ( %.1f fps)"
 
 msgid "Zoom +"
 msgstr "Büyüt +"
@@ -115,13 +115,13 @@ msgid "Left View"
 msgstr "Soldan görünüm"
 
 msgid "Front View"
-msgstr "Önden görğnğm"
+msgstr "Önden görünüm"
 
 msgid "Back View"
 msgstr "Arkadan görünüm"
 
 msgid "Move Left <-"
-msgstr "Sola kaydır"
+msgstr "Sola kaydır <-"
 
 msgid "Move Right ->"
 msgstr "Sağa kaydır"
@@ -133,7 +133,7 @@ msgid "Move Down"
 msgstr "Aşağı kaydır"
 
 msgid "Load OpenGL: board"
-msgstr "OpenGL tahtasını yükle"
+msgstr "OpenGL kart yükle"
 
 msgid "Load OpenGL: holes and vias"
 msgstr "OpenGL delik ve bağlantıları yükle"
@@ -157,880 +157,894 @@ msgstr "Yükleniyor..."
 
 #, c-format
 msgid "Rendering time %.3f s"
-msgstr ""
+msgstr "Görüntü oluşturma süresi %.3f s"
 
 #, c-format
 msgid "Rendering: %.0f %%"
-msgstr ""
+msgstr "Görüntü oluşturuluyor %.0f %%"
 
 msgid "Rendering: Post processing shader"
-msgstr ""
+msgstr "Görüntü oluşturuluyor: Gölge rötuşlaması"
 
 msgid "&File"
-msgstr ""
+msgstr "&Dosya"
 
 msgid "Export Current View as PNG..."
-msgstr ""
+msgstr "Görünümü PNG olarak kaydet."
 
 msgid "Export Current View as JPEG..."
-msgstr ""
+msgstr "Görünümü JPEG olarak kaydet."
 
 msgid "&Exit"
-msgstr ""
+msgstr "&Çıkış"
 
 msgid "&Edit"
-msgstr ""
+msgstr "&Düzenle"
 
 msgid "Copy 3D Image"
-msgstr ""
+msgstr "3B Görüntü Kopyala"
 
 msgid "&View"
-msgstr ""
+msgstr "&Görünüm"
 
 msgid "Zoom &In"
-msgstr ""
+msgstr "&Büyüt"
 
 msgid "Zoom &Out"
-msgstr ""
+msgstr "&Küçült"
 
 msgid "Zoom to &Fit"
-msgstr ""
+msgstr "&Ekrana Büyüt"
 
 msgid "&Redraw"
-msgstr ""
+msgstr "&Yenile"
 
 msgid "Rotate X Clockwise"
-msgstr ""
+msgstr "Saat yönünde X etrafında döndür"
 
 msgid "Rotate X Counterclockwise"
-msgstr ""
+msgstr "Saatin tersi yönde X etrafında döndür"
 
 msgid "Rotate Y Clockwise"
-msgstr ""
+msgstr "Saat yönünde Y etrafında döndür"
 
 msgid "Rotate Y Counterclockwise"
-msgstr ""
+msgstr "Saatin tersi yönde Y etrafında döndür"
 
 msgid "Rotate Z Clockwise"
-msgstr ""
+msgstr "Saat yönünde Z etrafında döndür"
 
 msgid "Rotate Z Counterclockwise"
-msgstr ""
+msgstr "Saatin tersi yönde Z etrafında döndür"
 
 msgid "Move left"
-msgstr ""
+msgstr "Sola kaydır"
 
 msgid "Move right"
-msgstr ""
+msgstr "Sağa kaydır"
 
 msgid "Move up"
-msgstr ""
+msgstr "Yukarı kaydır"
 
 msgid "Move down"
-msgstr ""
+msgstr "Aşağı kaydır"
 
 msgid "&Preferences"
-msgstr ""
+msgstr "Tercihler"
 
 msgid "Display Options"
-msgstr ""
+msgstr "Görüntüleme Seçenekleri"
 
 msgid "Raytracing"
-msgstr ""
+msgstr "Işın İzleme"
 
 msgid "Render Options"
-msgstr ""
+msgstr "Görüntü oluşturma seçenekleri"
 
 msgid "Material Properties"
-msgstr ""
+msgstr "Malzeme Özellikleri"
 
 msgid "Use All Properties"
-msgstr ""
+msgstr "Tüm Özellikleri Kullan"
 
 msgid "Use all material properties from each 3D model file"
-msgstr ""
+msgstr "Her 3B model dosyasındaki malzeme özelliklerinin tümünü kullan"
 
 msgid "Use Diffuse Only"
-msgstr ""
+msgstr "Sadece ana renk kullan"
 
 msgid "Use only the diffuse color property from model 3D model file"
-msgstr ""
+msgstr "3B model dosyasından sadece ana renk özelliğini kullan"
 
 msgid "CAD Color Style"
-msgstr ""
+msgstr "BDT Renk Biçimi"
 
 msgid "Use a CAD color style based on the diffuse color of the material"
-msgstr ""
+msgstr "Malzemenin ana rengine uygun BDT renk biçimi kullan"
 
 msgid "OpenGL Options"
-msgstr ""
+msgstr "OpenGL Seçenekleri"
 
 msgid "Show Copper Thickness"
-msgstr ""
+msgstr "Bakır Kalınlığını Göster"
 
 msgid "Shows the copper thickness on copper layers (slower loading)"
-msgstr ""
+msgstr "Bakır katmanlarındaki bakır kalınlıklarını göster (yavaş yüklenir)"
 
 msgid "Show Model Bounding Boxes"
-msgstr ""
+msgstr "Model Sınırlarını Göster"
 
 msgid "Raytracing Options"
-msgstr ""
+msgstr "Işın İzleme Seçenekleri"
 
 msgid "Render Shadows"
-msgstr ""
+msgstr "Gölgeleri Görüntüle"
 
 msgid "Procedural Textures"
-msgstr ""
+msgstr "Yapay Dokular"
 
 msgid "Apply procedural textures to materials (slow)"
-msgstr ""
+msgstr "Malzemelere yapay doku uygula (yavaş çalışır)"
 
 msgid "Add Floor"
-msgstr ""
+msgstr "Taban Ekle"
 
 msgid "Adds a floor plane below the board (slow)"
-msgstr ""
+msgstr "Tahtanın altına taban düzlemi ekle (yavaş çalışır)"
 
 msgid "Refractions"
-msgstr ""
+msgstr "Kırılmalar"
 
 msgid "Render materials with refractions properties on final render (slow)"
-msgstr ""
+msgstr "Malzemeleri kırılma özellikleriyle göster (yavaş çalışır)"
 
 msgid "Reflections"
-msgstr ""
+msgstr "Yansımalar"
 
 msgid "Render materials with reflections properties on final render (slow)"
-msgstr ""
+msgstr "Malzemeleri yansıma özellikleriyle göster (yavaş çalışır)"
 
 msgid "Anti-aliasing"
-msgstr ""
+msgstr "Kenar yumuşatma"
 
 msgid "Render with improved quality on final render (slow)"
-msgstr ""
+msgstr "Gelişmiş nitelikte göster (yavaş çalışır)"
 
 msgid "Post-processing"
-msgstr ""
+msgstr "Rötuşlama"
 
 msgid ""
 "Apply Screen Space Ambient Occlusion and Global Illumination reflections on "
 "final render (slow)"
 msgstr ""
+"Çevresel Perdeleme ve Küresel Aydınlatma Yansıması kullan (yavaş çalışır)"
 
 msgid "Choose Colors"
-msgstr ""
+msgstr "Renkleri Seçin"
 
 msgid "Background Color"
-msgstr ""
+msgstr "Zemin Rengi"
 
 msgid "Background Top Color..."
-msgstr ""
+msgstr "Zemin Üst Rengi..."
 
 msgid "Background Bottom Color..."
-msgstr ""
+msgstr "Zemin Alt Rengi..."
 
 msgid "Silkscreen Color..."
-msgstr ""
+msgstr "Serigrafi Rengi..."
 
 msgid "Solder Mask Color..."
-msgstr ""
+msgstr "Lehim Maskesi Rengi..."
 
 msgid "Solder Paste Color..."
-msgstr ""
+msgstr "Lehim Macunu Rengi..."
 
 msgid "Copper/Surface Finish Color..."
-msgstr ""
+msgstr "Bakır ya da Yüzey Kaplama Rengi..."
 
 msgid "Board Body Color..."
-msgstr ""
+msgstr "Kart Gövde Rengi..."
 
 msgid "Show 3D &Axis"
-msgstr ""
+msgstr "3B Eksen &Göster"
 
 msgid "3D Grid"
-msgstr ""
+msgstr "3B Izgara"
 
 msgid "No 3D Grid"
-msgstr ""
+msgstr "3B Izgara İptal"
 
 msgid "3D Grid 10 mm"
-msgstr ""
+msgstr "3B Izgara 10mm"
 
 msgid "3D Grid 5 mm"
-msgstr ""
+msgstr "3B Izgara 5 mm"
 
 msgid "3D Grid 2.5 mm"
-msgstr ""
+msgstr "3B Izgara 2,5mm"
 
 msgid "3D Grid 1 mm"
-msgstr ""
+msgstr "3B Izgara 1 mm"
 
 msgid "Reset to Default Settings"
-msgstr ""
+msgstr "Varsayılan Ayarlara Döndür"
 
 msgid "&Help"
-msgstr ""
+msgstr "&Yardım"
 
 msgid "Pcbnew &Manual"
-msgstr ""
+msgstr "Pcbnew &Kullanım Klavuzu"
 
 msgid "Open Pcbnew Manual"
-msgstr ""
+msgstr "Pcbnew Kullanım Klavuzunu Aç"
 
 msgid "&Getting Started in KiCad"
-msgstr ""
+msgstr "KiCad Başlangıç &Klavuzu"
 
 msgid "Open \"Getting Started in KiCad\" guide for beginners"
-msgstr ""
+msgstr "\"KiCad Başlangıç Klavuzu\"nu &Aç"
 
 msgid "&List Hotkeys..."
-msgstr ""
+msgstr "Kısayol Tuşlarını &Listele..."
 
 msgid "Displays the current hotkeys list and corresponding commands"
-msgstr ""
+msgstr "Kısayol Tuşları Listesini ve bunlara ilişkin komutları gösterir"
 
 msgid "Get &Involved"
-msgstr ""
+msgstr "Katkıda &Bulunun"
 
 msgid "Contribute to KiCad (opens a web browser)"
-msgstr ""
+msgstr "KiCad'e Katkı Sağlayın (Web Tarayıcısı açar)"
 
 msgid "&About KiCad"
-msgstr ""
+msgstr "KiCad &Hakkında"
 
 msgid "Display KiCad About dialog"
-msgstr ""
+msgstr "KiCad Hakkında iletişim penceresi açar"
 
 msgid "Reload board"
-msgstr ""
+msgstr "Kartı yeniden yükle"
 
 msgid "Copy 3D image to clipboard"
-msgstr ""
+msgstr "3B Görüntüyü kopyala"
 
 msgid "Set display options, and some layers visibility"
-msgstr ""
+msgstr "Ekran seçenekleri ve bazı katman görüle bilirliğini ayara"
 
 msgid "Render current view using Raytracing"
-msgstr ""
+msgstr "Görünümü Işın İzlemeyle oluştur"
 
 msgid "Zoom in"
-msgstr ""
+msgstr "Yakınlaştır"
 
 msgid "Zoom out"
-msgstr ""
+msgstr "Uzaklaştır"
 
 msgid "Redraw view"
-msgstr ""
+msgstr "Görünümü yenile"
 
 msgid "Zoom to fit 3D model"
-msgstr ""
+msgstr "3B model büyüklüğüne getir"
 
 msgid "Enable/Disable orthographic projection"
-msgstr ""
+msgstr "Orthographic yansıtmayı etkinleştir/kapat"
 
 msgid "Render options:"
-msgstr ""
+msgstr "Görüntü oluşturma seçenekleri:"
 
 msgid "Realistic mode"
-msgstr ""
+msgstr "Gerçekçi mod"
 
 msgid "Show board body"
-msgstr ""
+msgstr "Kartı göster"
 
 msgid "Show copper thickness"
-msgstr ""
+msgstr "Bakır kalınlığını göster"
 
 msgid "Show model bounding boxes"
-msgstr ""
+msgstr "Model sınırlarını göster"
 
 msgid "Show filled areas in zones"
-msgstr ""
+msgstr "Bölgelerdeki doldurulmuş alanları göster"
 
 msgid "3D model visibility:"
-msgstr ""
+msgstr "3B model görünürlüğü:"
 
 msgid "Show 3D through hole models"
-msgstr ""
+msgstr "3B Delik montaj Modelleri göster"
 
 msgid "Show 3D SMD models"
-msgstr ""
+msgstr "3B Yüzey Montaj modelleri göster"
 
 msgid "Show 3D virtual models"
-msgstr ""
+msgstr "3B Sanal modelleri göster"
 
 msgid "Board layers:"
-msgstr ""
+msgstr "Kart katmanları:"
 
 msgid "Show silkscreen layers"
-msgstr ""
+msgstr "Serigrafi katmanlarını göster"
 
 msgid "Show solder mask layers"
-msgstr ""
+msgstr "Lehim maskesi katmanlarını göster"
 
 msgid "Show solder paste layers"
-msgstr ""
+msgstr "Lehim Macunu katmanlarını göster"
 
 msgid "Show adhesive layers"
-msgstr ""
+msgstr "Yapıştırıcı katmanlarını göster"
 
 msgid "User layers (not shown in realistic mode):"
-msgstr ""
+msgstr "Kullanıcı katmanları (Gerçekçi Modda görüntülenmez):"
 
 msgid "Show comments and drawings layers"
-msgstr ""
+msgstr "Açıklama ve Çizim katmanlarını göster"
 
 msgid "Show ECO layers"
-msgstr ""
+msgstr "MDİ (Mühendislik Değişiklik İsteği) katmanlarını göster"
 
 msgid "3D Display Options"
-msgstr ""
+msgstr "3B Görüntüleme Seçenekleri"
 
 msgid "Background Color, Bottom"
-msgstr ""
+msgstr "Zemin Rengi, Alt"
 
 msgid "Background Color, Top"
-msgstr ""
+msgstr "Zemin Rengi, Üst"
 
 msgid "3D Image File Name"
-msgstr ""
+msgstr "3B Görüntü Dosya İsmi"
 
 msgid "Failed to copy image to clipboard"
-msgstr ""
+msgstr "Görüntü panoya kopyalanamadı"
 
 msgid "Can't save file"
-msgstr ""
+msgstr "Dosya kaydedilemedi"
 
 msgid "Solder Mask Color"
-msgstr ""
+msgstr "Lehim Maskesi Rengi"
 
 msgid "Copper Color"
-msgstr ""
+msgstr "Bakır Rengi"
 
 msgid "Board Body Color"
-msgstr ""
+msgstr "Kart Gövde Rengi"
 
 msgid "Solder Paste Color"
-msgstr ""
+msgstr "Lehim Macunu Rengi"
 
 msgid "List Hotkeys"
-msgstr ""
+msgstr "Kısayol Tuşlarını Listele"
 
 msgid "Center pivot rotation (Middle mouse click)"
 msgstr ""
 
 msgid "Move board Left"
-msgstr ""
+msgstr "Kartı Sola kaydır"
 
 msgid "Move board Right"
-msgstr ""
+msgstr "Kartı Sağa kaydır"
 
 msgid "Move board Up"
-msgstr ""
+msgstr "Kartı Yukarı kaydır"
 
 msgid "Move board Down"
-msgstr ""
+msgstr "Kartı Aşağı kaydır"
 
 msgid "Home view"
 msgstr ""
 
 msgid "Reset view"
-msgstr ""
+msgstr "Görünümü sıfırla"
 
 msgid "View Front"
-msgstr ""
+msgstr "Önden görünüm"
 
 msgid "View Back"
-msgstr ""
+msgstr "Arkadan görünüm"
 
 msgid "View Left"
-msgstr ""
+msgstr "Soldan görünüm"
 
 msgid "View Right"
-msgstr ""
+msgstr "Sağdan görünüm"
 
 msgid "View Top"
-msgstr ""
+msgstr "Üstten görünüm"
 
 msgid "View Bot"
-msgstr ""
+msgstr "Alttan görünüm"
 
 msgid "Rotate 45 degrees over Z axis"
-msgstr ""
+msgstr "Z ekseni etrafında 45 derece döndür"
 
 msgid "Zoom in "
-msgstr ""
+msgstr "Büyüt "
 
 msgid "Toggle 3D models with type Through Hole"
-msgstr ""
+msgstr "3B Delik Montaj model gösterimi değiştir"
 
 msgid "Toggle 3D models with type Surface Mount"
-msgstr ""
+msgstr "3B Yüzey Montaj model gösterimi değiştir"
 
 msgid "Toggle 3D models with type Virtual"
-msgstr ""
+msgstr "3B Sanal model gösterimi değiştir"
 
 msgid "Viewer 3D"
-msgstr ""
+msgstr "3B İzleyici"
 
 msgid "Choose Image"
-msgstr ""
+msgstr "Görüntü Seç"
 
 msgid "Image Files "
-msgstr ""
+msgstr "Görüntü Dosyaları "
 
 msgid "Create Logo File"
-msgstr ""
+msgstr "Logo Dosyası Seç"
 
 #, c-format
 msgid "File \"%s\" could not be created."
-msgstr ""
+msgstr "\"%s\" dosyası oluşturulamadı."
 
 msgid "Create Postscript File"
-msgstr ""
+msgstr "Postscript Dosyası Oluştur"
 
 msgid "Create Symbol Library"
-msgstr ""
+msgstr "Simge Kitaplığı Oluştur"
 
 msgid "Create Footprint Library"
-msgstr ""
+msgstr "Ayak İzi Kitaplığı Oluştur"
 
 msgid "Error allocating memory for potrace bitmap"
-msgstr ""
+msgstr "Potrace bitmap için bellek ayrılırken hata oluştu"
 
 msgid "Original Picture"
-msgstr ""
+msgstr "Özgün Resim"
 
 msgid "Greyscale Picture"
-msgstr ""
+msgstr "Gri Tonlamalı Görüntüleme"
 
 msgid "Black&&White Picture"
-msgstr ""
+msgstr "Siyah&&Beyaz Görüntüleme"
 
 msgid "Bitmap Info:"
-msgstr ""
+msgstr "Bitmap Bilgisi:"
 
 msgid "Size:"
-msgstr ""
+msgstr "Boyut:"
 
 msgid "0000"
-msgstr ""
+msgstr "0000"
 
 msgid "pixels"
-msgstr ""
+msgstr "piksel"
 
 msgid "mm"
-msgstr ""
+msgstr "mm"
 
 msgid "BPP:"
-msgstr ""
+msgstr "BPP:"
 
 msgid "bits"
-msgstr ""
+msgstr "bit"
 
 msgid "Resolution:"
-msgstr ""
+msgstr "Çözünürlük:"
 
 msgid "300"
-msgstr ""
+msgstr "300"
 
 msgid "DPI"
-msgstr ""
+msgstr "DPI"
 
 msgid "Load Bitmap"
-msgstr ""
+msgstr "Bitmap Yükle"
 
 msgid "Export"
-msgstr ""
+msgstr "İhraç"
 
 msgid ""
 "Create a library file for Eeschema\n"
 "This library contains only one component: logo"
 msgstr ""
+"Eeschema için kitaplık oluştur\n"
+"Bu kitaplık sadece bir bileşen içerir: logo"
 
 msgid "Eeschema (.lib file)"
-msgstr ""
+msgstr "Eeschema (.lib dosyası)"
 
 msgid "Pcbnew (.kicad_mod file)"
-msgstr ""
+msgstr "Pcbnew (.kicad_mod dosyası)"
 
 msgid "Postscript (.ps file)"
-msgstr ""
+msgstr "Postscript (.ps dosyası)"
 
 msgid "Logo for title block (.kicad_wks file)"
-msgstr ""
+msgstr "Başlık bloğu için Logo (.kicad_wks file)"
 
 msgid "Format:"
-msgstr ""
+msgstr "Biçim:"
 
 msgid "Image Options:"
-msgstr ""
+msgstr "Görüntü Seçenekleri:"
 
 msgid "Black / White Threshold:"
-msgstr ""
+msgstr "Siyah / Beyaz Eşiği:"
 
 msgid ""
 "Adjust the level to convert the greyscale picture to a black and white "
 "picture."
 msgstr ""
+"Gri tonlamalı resmi siyah beyaz bir resme dönüştürmek için düzeyi ayarlayın."
 
 msgid "Negative"
-msgstr ""
+msgstr "Olumsuz"
 
 msgid "Front silk screen"
-msgstr ""
+msgstr "Ön serigrafi baskı"
 
 msgid "Front solder mask"
-msgstr ""
+msgstr "Ön lehim pastası maskesi"
 
 msgid "User layer Eco1"
-msgstr ""
+msgstr "Kullanıcı katmanı Mdi1"
 
 msgid "User layer Eco2"
-msgstr ""
+msgstr "Kullanıcı katmanı Mdi2"
 
 msgid "Board Layer for Outline:"
-msgstr ""
+msgstr "Taslak için Kart Katmanı:"
 
 msgid ""
 "Choose the board layer to place the outline.\n"
 "The 2 invisible fields reference and value are always placed on the silk "
 "screen layer."
 msgstr ""
+"Taslak oluşturmak için  kart katmanı seçin.\n"
+"2 görünmez referans alanı ve değeri her zaman serigrafi katmanına "
+"yerleştirilir."
 
 msgid "Bitmap to Component Converter"
-msgstr ""
+msgstr "Bitmap'den Öğeye Çevirici"
 
 #, c-format
 msgid "User grid: %.4f mm (%.2f mils)"
-msgstr ""
+msgstr "Kullanıcı ızgarası: %.4f mm (%.2f mils)"
 
 #, c-format
 msgid "User grid: %.2f mils (%.4f mm)"
-msgstr ""
+msgstr "Kullanıcı ızgarası: %.2f mm (%.4f mils)"
 
 #, c-format
 msgid "Grid: %.4f mm (%.2f mils)"
-msgstr ""
+msgstr "Izgara: %.4f mm (%.2f mils)"
 
 #, c-format
 msgid "Grid: %.2f mils (%.4f mm)"
-msgstr ""
+msgstr "Izgara: %.2f mm (%.4f mils)"
 
 msgid "mils"
-msgstr ""
+msgstr "mils"
 
 msgid "in"
-msgstr ""
+msgstr "in"
 
 msgid "deg"
-msgstr ""
+msgstr "deg"
 
 msgid "Black"
-msgstr ""
+msgstr "Siyah"
 
 msgid "Gray 1"
-msgstr ""
+msgstr "Gri 1"
 
 msgid "Gray 2"
-msgstr ""
+msgstr "Gri 2"
 
 msgid "Gray 3"
-msgstr ""
+msgstr "Gri 3"
 
 msgid "White"
-msgstr ""
+msgstr "Beyaz"
 
 msgid "L.Yellow"
-msgstr ""
+msgstr "A.Sarı"
 
 msgid "Blue 1"
-msgstr ""
+msgstr "Mavi 1"
 
 msgid "Green 1"
-msgstr ""
+msgstr "Yeşil 1"
 
 msgid "Cyan 1"
-msgstr ""
+msgstr "Cam göbeği 1"
 
 msgid "Red 1"
-msgstr ""
+msgstr "Kırmızı 1"
 
 msgid "Magenta 1"
-msgstr ""
+msgstr "Eflatun 1"
 
 msgid "Brown 1"
-msgstr ""
+msgstr "Kahve rengi 1"
 
 msgid "Blue 2"
-msgstr ""
+msgstr "Mavi 2"
 
 msgid "Green 2"
-msgstr ""
+msgstr "Yeşil 2"
 
 msgid "Cyan 2"
-msgstr ""
+msgstr "Cam göbeği 2"
 
 msgid "Red 2"
-msgstr ""
+msgstr "Kırmızı 2"
 
 msgid "Magenta 2"
-msgstr ""
+msgstr "Eflatun 2"
 
 msgid "Brown 2"
-msgstr ""
+msgstr "Kahve rengi 2"
 
 msgid "Blue 3"
-msgstr ""
+msgstr "Mavi 3"
 
 msgid "Green 3"
-msgstr ""
+msgstr "Yeşil 3"
 
 msgid "Cyan 3"
-msgstr ""
+msgstr "Cam göbeği 3"
 
 msgid "Red 3"
-msgstr ""
+msgstr "Kırmızı 3"
 
 msgid "Magenta 3"
-msgstr ""
+msgstr "Eflatun 3"
 
 msgid "Yellow 3"
-msgstr ""
+msgstr "Sarı 3"
 
 msgid "Blue 4"
-msgstr ""
+msgstr "Mavi 4"
 
 msgid "Green 4"
-msgstr ""
+msgstr "Yeşil 4"
 
 msgid "Cyan 4"
-msgstr ""
+msgstr "Cam göbeği 4"
 
 msgid "Red 4"
-msgstr ""
+msgstr "Kırmızı 4"
 
 msgid "Magenta 4"
-msgstr ""
+msgstr "Eflatun 4"
 
 msgid "Yellow 4"
-msgstr ""
+msgstr "Sarı 4"
 
 #, c-format
 msgid ""
 "Environment variables expansion failed: missing '%c' at position %u in '%s'."
 msgstr ""
+"Ortam değişkenleri genişletilemedi: '%c' %u konumunda, %s'de bulunamadı."
 
 #, c-format
 msgid "Cannot make path \"%s\" absolute with respect to \"%s\"."
-msgstr ""
+msgstr "Yol \"%s\" \"%s\"e göre oluşturulamıyor."
 
 #, c-format
 msgid "Output directory \"%s\" created.\n"
-msgstr ""
+msgstr "Çıktı klasörü \"%s\" oluşturuldu.\n"
 
 #, c-format
 msgid "Cannot create output directory \"%s\".\n"
-msgstr ""
+msgstr "Çıktı klasörü \"%s\" oluşturulamıyor.\n"
 
 msgid "Do not show again"
-msgstr ""
+msgstr "Bir daha gösterme"
 
 msgid "Message"
-msgstr ""
+msgstr "İleti"
 
 msgid "Question"
-msgstr ""
+msgstr "Soru"
 
 msgid "Warning"
-msgstr ""
+msgstr "Uyarı"
 
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 msgid "If you don't save, all your changes will be permanently lost."
-msgstr ""
+msgstr "Kaydetmezseniz, tüm değişiklikleriniz yok olacaktır."
 
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 msgid "Your current changes will be permanently lost."
-msgstr ""
+msgstr "Yaptığınız değişiklikler yok olacak."
 
 msgid "Revert"
-msgstr ""
+msgstr "Geriye al"
 
 msgid "Info"
-msgstr ""
+msgstr "Bilgi"
 
 msgid "Confirmation"
-msgstr ""
+msgstr "Onayla"
 
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 msgid ""
 "The KiCad EDA Suite is a set of open source applications for the creation of "
 "electronic schematics and printed circuit boards."
 msgstr ""
+"KiCad ETO(Elektronik Tasarım Otomasyonu), elektronik şemaların ve baskılı "
+"devre kartlarının oluşturulması için bir dizi açık kaynak uygulama takımıdır."
 
 msgid "KiCad on the web"
-msgstr ""
+msgstr "Web'de KiCad"
 
 msgid "The official KiCad website - "
-msgstr ""
+msgstr "Resmi KşCad İnternet sitesi - "
 
 msgid "Developer website on Launchpad - "
-msgstr ""
+msgstr "Launchpad'deki geliştirici İnternet sitesi - "
 
 msgid "Official KiCad library repositories - "
-msgstr ""
+msgstr "Resmi KiCad kütüphane depoları - "
 
 msgid "Bug tracker"
-msgstr ""
+msgstr "Hata izleyici"
 
 msgid "Report or examine bugs - "
-msgstr ""
+msgstr "Hataları bildirme veya inceleme - "
 
 msgid "KiCad user's groups and community"
-msgstr ""
+msgstr "KiCad kullanıcı grupları ve topluluğu"
 
 msgid "KiCad forum - "
-msgstr ""
+msgstr "KiCad forumu - "
 
 msgid "KiCad user's group - "
-msgstr ""
+msgstr "KiCad kullanıcı grubu - "
 
 msgid "The complete KiCad EDA Suite is released under the"
-msgstr ""
+msgstr "KiCad ETO Uygulamaları'nın tamamı"
 
 msgid "GNU Affero General Public License (AGPL) version 3 or any later version"
 msgstr ""
+"GNU Affero General Public License (AGPL) version 3 veya daha yeni lisanslar "
+"altında yayınlanmıştır"
 
 msgid "Others"
-msgstr ""
+msgstr "Diğerleri"
 
 msgid "Icons by"
-msgstr ""
+msgstr "İkonlar"
 
 msgid "3D models by"
-msgstr ""
+msgstr "3B Modeller"
 
 msgid "Symbols by"
-msgstr ""
+msgstr "Simgeler"
 
 msgid "Footprints by"
 msgstr ""
 
 msgid "Information"
-msgstr ""
+msgstr "Bilgi"
 
 msgid "Developers"
-msgstr ""
+msgstr "Geliştirenler"
 
 msgid "Doc Writers"
-msgstr ""
+msgstr "Yazarlar"
 
 msgid "Artists"
-msgstr ""
+msgstr "Sanatçılar"
 
 msgid "Translators"
-msgstr ""
+msgstr "Çevirmenler"
 
 msgid "Packagers"
-msgstr ""
+msgstr "Paketleyiciler"
 
 msgid "License"
-msgstr ""
+msgstr "Lisans"
 
 msgid "Version Info"
-msgstr ""
+msgstr "Sürüm"
 
 msgid "Could not open clipboard to write version information."
-msgstr ""
+msgstr "Sürüm bilgileri yazmak için pano açılamadı."
 
 msgid "Clipboard Error"
-msgstr ""
+msgstr "Pano Hatası"
 
 msgid "Copied..."
-msgstr ""
+msgstr "Kopyalandı..."
 
 msgid "App Title"
-msgstr ""
+msgstr "Uygulama Başlığı"
 
 msgid "Copyright Info"
-msgstr ""
+msgstr "Telif Hakkı"
 
 msgid "Build Version Info"
-msgstr ""
+msgstr "Kurulum Sürümü"
 
 msgid "Lib Version Info"
-msgstr ""
+msgstr "Lib Sürümü"
 
 msgid "Show Version Info"
-msgstr ""
+msgstr "Sürüm Bilgisi Göster"
 
 msgid "Copy Version Info"
-msgstr ""
+msgstr "Kopya Sürümü"
 
 msgid "Copy KiCad version info to the clipboard"
-msgstr ""
+msgstr "KiCad sürüm bilgilerini panoya kopyala"
 
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 msgid "RGB"
-msgstr ""
+msgstr "KYM"
 
 msgid "Red:"
-msgstr ""
+msgstr "Kırmızı:"
 
 msgid "Green:"
-msgstr ""
+msgstr "Yeşil:"
 
 msgid "Blue:"
-msgstr ""
+msgstr "Mavi:"
 
 msgid "HSV"
-msgstr ""
+msgstr "RDD"
 
 msgid "Hue:"
-msgstr ""
+msgstr "Renk:"
 
 msgid "Saturation:"
-msgstr ""
+msgstr "Doyum:"
 
 msgid "Value:"
-msgstr ""
+msgstr "Değer:"
 
 msgid "Color Picker"
-msgstr ""
+msgstr "Renk Seçici"
 
 msgid "Defined Colors"
-msgstr ""
+msgstr "Tanımlı Renkler"
 
 msgid "Opacity:"
-msgstr ""
+msgstr "Opaklık:"
 
 msgid "Preview (old / new):"
-msgstr ""
+msgstr "Ön izleme (eski / yeni)"
 
 msgid "Environment variable name cannot be empty."
-msgstr ""
+msgstr "Ortam değişkeni adı boş bırakılamaz."
 
 msgid "Environment variable path cannot be empty."
-msgstr ""
+msgstr "Ortam değişkeni yolu boş olamaz."
 
 msgid "3D search path alias cannot be empty."
-msgstr ""
+msgstr "3B arama yolu takma adı boş bırakılamaz."
 
 msgid "3D search path cannot be empty."
-msgstr ""
+msgstr "3D arama yolu boş olamaz."
 
 msgid ""
 "This path was defined  externally to the running process and\n"
 "will only be temporarily overwritten."
 msgstr ""
+"Bu yol harici olarak çalışan işleme tanımlandı ve\n"
+" yalnızca geçici olarak üzerine yazılacak."
 
 msgid ""
 "The next time KiCad is launched, any paths that have already\n"
@@ -1039,12 +1053,16 @@ msgid ""
 "this behavior, either rename any conflicting entries or remove\n"
 "the external environment variable(s) from your system."
 msgstr ""
+"KiCad bir daha başlatıldığında, tanımlanmış yollar ve \n"
+"yol yapılandırma iletişim kutusuyla yapılandırılmış ayarlar yok sayılacak.\n"
+"Eğer bunu istemiyorsanız, çakışan girdileri yeniden adlandırın veya \n"
+"sisteminizdeki harici ortam değişkenlerini kaldırın."
 
 msgid "File Browser..."
-msgstr ""
+msgstr "Dosya Tarayıcısı..."
 
 msgid "Select Path"
-msgstr ""
+msgstr "Yol Seçin"
 
 msgid ""
 "Enter the name and value for each environment variable.  Grey entries are "
@@ -1053,43 +1071,51 @@ msgid ""
 "over the ones defined in this table.  This means the values in this table "
 "are ignored."
 msgstr ""
+"Her ortam değişkeni için ad ve değer girin. \n"
+"Gri girişler, sistem veya kullanıcı düzeyinde harici olarak tanımlanan "
+"adlardır.\n"
+"Sistem veya kullanıcı düzeyinde tanımlanan ortam değişkenleri, bu tabloda "
+"tanımlananlara göre önceliklidir. \n"
+"Dolayısıyla, bu tablodaki değerler yok sayılır."
 
 msgid ""
 "To ensure environment variable names are valid on all platforms, the name "
 "field will only accept upper case letters, digits, and the underscore "
 "characters."
 msgstr ""
+"Ortam değişkeni adlarının tüm platformlarda geçerli olmasını sağlamak için "
+"ad alanı yalnızca büyük harf, rakam ve alt çizgi karakterlerini kabul eder."
 
 msgid "Environment Variable Help"
-msgstr ""
+msgstr "Ortam Değişkeni Yardımı"
 
 msgid "Environment Variables"
-msgstr ""
+msgstr "Ortam Değişkenleri"
 
 msgid "Name"
-msgstr ""
+msgstr "İsim"
 
 msgid "Path"
-msgstr ""
+msgstr "Yol"
 
 msgid "3D Search Paths"
-msgstr ""
+msgstr "3B Arama Yolları"
 
 msgid "Alias"
-msgstr ""
+msgstr "Takma İsim"
 
 msgid "Save changes?"
-msgstr ""
+msgstr "Değişimler kaydedilsin mi?"
 
 msgid "Apply to all"
-msgstr ""
+msgstr "Hepsine uygula"
 
 msgid "Discard Changes"
-msgstr ""
+msgstr "Değişiklikleri yok say"
 
 #, c-format
 msgid "Configure Global %s Library Table"
-msgstr ""
+msgstr "Genel %s Kitaplık Tablosunu Yapılandır"
 
 #, c-format
 msgid ""
@@ -1099,162 +1125,175 @@ msgid ""
 "of the options below.  If you are not sure which option to select, please\n"
 "use the default selection."
 msgstr ""
+"KiCad, yeni %s kitaplık tablosu kullanılarak kütüphanelere erişim için ilk "
+"kez çalıştırıldı.\n"
+"KiCad'in %s kütüphanesine erişebilmesi için genel %s kitaplık tablonuzu "
+"yapılandırmanız gerekir.\n"
+"Lütfen aşağıdaki seçeneklerden birini seçin.\n"
+"Hangi seçeneği seçeceğinizden emin değilseniz, lütfen varsayılan seçimi "
+"kullanın."
 
 #, c-format
 msgid "Copy default global %s library table (recommended)"
-msgstr ""
+msgstr "Varsayılan genel %s kitaplık tablosunu kopyala (önerilir)"
 
 #, c-format
 msgid ""
 "Select this option if you not sure about configuring the global %s library "
 "table"
 msgstr ""
+"Genel %s kitaplık tablosunu nasıl yapılandırılacağı konusunda emin "
+"değilseniz, bu seçeneği kullanın"
 
 #, c-format
 msgid "Copy custom global %s library table"
-msgstr ""
+msgstr "Özelleştirilmiş %s kitaplık tablosunu kopyala"
 
 #, c-format
 msgid ""
 "Select this option to copy a %s library table file other than the default"
 msgstr ""
+"Varsayılandan farklı bir %s kitaplık tablosu dosyasını kopyalamak için bu "
+"seçeneği seçin"
 
 #, c-format
 msgid "Create an empty global %s library table"
-msgstr ""
+msgstr "Boş bir genel %s kütüphane tablosu oluştur"
 
 #, c-format
 msgid ""
 "Select this option to define %s libraries in project specific library tables"
 msgstr ""
+"Projeye özgü kütüphane tablolarında %s kitaplığı tanımlamak için bu seçeneği "
+"seçin"
 
 #, c-format
 msgid "Select global %s library table file:"
-msgstr ""
+msgstr "Genel %s kütüphane tablosu dosyasını seçin:"
 
 msgid "Temp"
-msgstr ""
+msgstr "Geçici"
 
 msgid "temp1"
-msgstr ""
+msgstr "geçici1"
 
 msgid "temp2"
-msgstr ""
+msgstr "geçici2"
 
 msgid "temp3"
-msgstr ""
+msgstr "geçici3"
 
 msgid "temp"
-msgstr ""
+msgstr "geçici"
 
 msgid "Select a file"
-msgstr ""
+msgstr "Bir dosya seçin"
 
 msgid "Configure Global Library Table"
-msgstr ""
+msgstr "Genel Kütüphane Tablosunu Yapılandırma"
 
 msgid "Hotkey List"
-msgstr ""
+msgstr "Kısayol Tuşları Listesi"
 
 msgid "Incorrect scale number"
-msgstr ""
+msgstr "Yanlış ölçek numarası"
 
 #, c-format
 msgid "This scale gives a too small image size (%.2f mm or %.1f mil)"
-msgstr ""
+msgstr "Bu ölçek çok küçük bir görüntü boyutu veriyor (%.2f mm veya %.1f mil)"
 
 #, c-format
 msgid ""
 "This scale gives a very large image size (%.1f mm or %.2f in). Are you sure?"
-msgstr ""
+msgstr "Bu ölçek çok büyük bir görüntü boyutu veriyor (%.2f mm veya %.1f mil)"
 
 msgid "Mirror X"
-msgstr ""
+msgstr "Ayna X"
 
 msgid "Mirror Y"
-msgstr ""
+msgstr "Ayna Y"
 
 msgid "Rotate"
-msgstr ""
+msgstr "Döndür"
 
 msgid "Grey"
-msgstr ""
+msgstr "Gri"
 
 msgid "Half Size"
-msgstr ""
+msgstr "Yarım boy"
 
 msgid "Undo Last"
-msgstr ""
+msgstr "Sonuncuyu geri al"
 
 msgid "Image Scale:"
-msgstr ""
+msgstr "Görüntü Ölçeği:"
 
 msgid "Image Editor"
-msgstr ""
+msgstr "Görüntü Editörü"
 
 msgid "Items:"
-msgstr ""
+msgstr "Maddeler:"
 
 msgid "Messages:"
-msgstr ""
+msgstr "İletiler:"
 
 msgid "A4 210x297mm"
-msgstr ""
+msgstr "A4 210x297mm"
 
 msgid "A3 297x420mm"
-msgstr ""
+msgstr "A3 297x420mm"
 
 msgid "A2 420x594mm"
-msgstr ""
+msgstr "A2 420x594mm"
 
 msgid "A1 594x841mm"
-msgstr ""
+msgstr "A1 594x841mm"
 
 msgid "A0 841x1189mm"
-msgstr ""
+msgstr "A0 841x1189mm"
 
 msgid "A 8.5x11in"
-msgstr ""
+msgstr "A 8.5x11in"
 
 msgid "B 11x17in"
-msgstr ""
+msgstr "B 11x17in"
 
 msgid "C 17x22in"
-msgstr ""
+msgstr "C 17x22in"
 
 msgid "D 22x34in"
-msgstr ""
+msgstr "C 17x22in"
 
 msgid "E 34x44in"
-msgstr ""
+msgstr "E 34x44in"
 
 msgid "USLetter 8.5x11in"
-msgstr ""
+msgstr "USLetter 8.5x11in"
 
 msgid "USLegal 8.5x14in"
-msgstr ""
+msgstr "USLegal 8.5x14in"
 
 msgid "USLedger 11x17in"
-msgstr ""
+msgstr "USLedger 11x17in"
 
 msgid "User (Custom)"
-msgstr ""
+msgstr "Kullanıcı (Özelleştirilmiş)"
 
 msgid "Portrait"
-msgstr ""
+msgstr "Portre"
 
 #, c-format
 msgid "Page layout description file \"%s\" not found."
-msgstr ""
+msgstr "Sayfa düzeni dosyası \"%s\" bulunamadı."
 
 msgid "the translation for paper size must preserve original spellings"
-msgstr ""
+msgstr "kağıt boyutu için çeviriler, orijinal yazımları korumalıdır"
 
 msgid "Landscape"
-msgstr ""
+msgstr "Peyzaj"
 
 msgid "Select Page Layout Description File"
-msgstr ""
+msgstr "Sayfa Düzeni Dosyasını Seçin"
 
 #, c-format
 msgid ""
@@ -1264,266 +1303,278 @@ msgid ""
 "instead of\n"
 "\"%s\"?"
 msgstr ""
+"Sayfa düzeni dosyasının adı değişti.\n"
+"Göreli yolu kullanmak istiyor musunuz:\n"
+"\"%s\"\n"
+"onun yerine\n"
+"\"%s\"?"
 
 msgid "Paper"
-msgstr ""
+msgstr "Kağıt"
 
 msgid "dummy text"
-msgstr ""
+msgstr "taklit metin"
 
 msgid "Orientation:"
-msgstr ""
+msgstr "Oryantasyon:"
 
 msgid "Custom paper size:"
-msgstr ""
+msgstr "Özel kağıt boyutu:"
 
 msgid "Height:"
-msgstr ""
+msgstr "Yükseklik:"
 
 msgid "Custom paper height."
-msgstr ""
+msgstr "Özel kağıt yüksekliği."
 
 msgid "unit"
-msgstr ""
+msgstr "birim"
 
 msgid "Width:"
-msgstr ""
+msgstr "Genişlik:"
 
 msgid "Custom paper width."
-msgstr ""
+msgstr "Özel kağıt genişliği."
 
 msgid "Layout Preview"
-msgstr ""
+msgstr "Düzen Önizlemesi"
 
 msgid "Title Block Parameters"
-msgstr ""
+msgstr "Başlık Bloğu Özellikleri"
 
 #, c-format
 msgid "Number of sheets: %d"
-msgstr ""
+msgstr "Sayfa sayısı: %d"
 
 #, c-format
 msgid "Sheet number: %d"
-msgstr ""
+msgstr "Sayfa numarası: %d"
 
 msgid "Issue Date"
-msgstr ""
+msgstr "Veriliş Tarihi"
 
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 msgid "Export to other sheets"
-msgstr ""
+msgstr "Diğer sayfalara aktar"
 
 msgid "Revision"
-msgstr ""
+msgstr "Revizyon"
 
 msgid "Title"
-msgstr ""
+msgstr "Başlık"
 
 msgid "Company"
-msgstr ""
+msgstr "Şirket"
 
 msgid "Comment1"
-msgstr ""
+msgstr "Açıklama1"
 
 msgid "Comment2"
-msgstr ""
+msgstr "Açıklama2"
 
 msgid "Comment3"
-msgstr ""
+msgstr "Açıklama3"
 
 msgid "Comment4"
-msgstr ""
+msgstr "Açıklama4"
 
 msgid "Page layout description file"
-msgstr ""
+msgstr "Sayfa düzeni dosyası"
 
 msgid "Browse..."
-msgstr ""
+msgstr "Araştır..."
 
 msgid "Page Settings"
-msgstr ""
+msgstr "Sayfa Ayarları."
 
 msgid "Print"
-msgstr ""
+msgstr "Baskı"
 
 msgid "Print Preview"
-msgstr ""
+msgstr "Baskı Önizleme"
 
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 msgid "Warning: Scale option set to a very large value"
-msgstr ""
+msgstr "Uyarı: Ölçek seçeneği çok büyük bir değere ayarlandı"
 
 msgid "Warning: Scale option set to a very small value"
-msgstr ""
+msgstr "Uyarı: Ölçek seçeneği çok küçük bir değere ayarlandı"
 
 msgid "Nothing to print"
-msgstr ""
+msgstr "Yazdırılacak bir şey yok"
 
 msgid "There was a problem printing."
-msgstr ""
+msgstr "Yazdırmada bir sorun oluştu."
 
 msgid "An error occurred initializing the printer information."
-msgstr ""
+msgstr "Yazıcı bilgileri başlatılırken bir hata oluştu."
 
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 msgid "Output mode:"
-msgstr ""
+msgstr "Çıkış modu:"
 
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 msgid "Black and white"
-msgstr ""
+msgstr "Siyah ve beyaz"
 
 msgid "Print border and title block"
-msgstr ""
+msgstr "Kenarlık ve başlık bloğunu yazdır"
 
 msgid "Print Frame references."
-msgstr ""
+msgstr "Baskı Çerçevesi referansları."
 
 msgid "1:1"
-msgstr ""
+msgstr "1:1"
 
 msgid "Fit to page"
-msgstr ""
+msgstr "Sayfaya sığdır"
 
 msgid "Custom:"
-msgstr ""
+msgstr "Özel:"
 
 msgid "Set X scale adjust for exact scale plotting"
-msgstr ""
+msgstr "Tam ölçek çizimi için X ölçek ayarını ayarlama"
 
 msgid "Page Setup..."
-msgstr ""
+msgstr "Sayfa ayarı..."
 
 msgid "MyLabel"
-msgstr ""
+msgstr "Etiketim"
 
 msgid "Executable files ("
-msgstr ""
+msgstr "Çalıştırılabilir dosyalar ("
 
 msgid "Select Preferred PDF Browser"
-msgstr ""
+msgstr "Tercih Edilen PDF Tarayıcısını Seçin"
 
 msgid "&Auto save:"
-msgstr ""
+msgstr "&Otomatik kaydet:"
 
 msgid ""
 "Delay after the first change to create a backup file of the board on disk.\n"
 "If set to 0, auto backup is disabled"
 msgstr ""
+"Diskteki kartın yedek dosyasını oluşturmak için ilk değişiklikten sonraki "
+"gecikme.\n"
+"0 olarak ayarlanırsa, otomatik yedekleme devre dışı bırakılır"
 
 msgid "minutes"
-msgstr ""
+msgstr "dakika"
 
 msgid "File history size:"
-msgstr ""
+msgstr "Dosya geçmişi boyutu:"
 
 msgid "Graphics (Accelerated):"
-msgstr ""
+msgstr "Grafikler (Hızlandırılmış):"
 
 msgid "No Antialiasing"
-msgstr ""
+msgstr "Kenar Yumuşatma İptal"
 
 msgid "Subpixel Antialiasing (High Quality)"
-msgstr ""
+msgstr "Alt Piksel Kenar Yumuşatma (Yüksek Kalite)"
 
 msgid "Subpixel Antialiasing (Ultra Quality)"
-msgstr ""
+msgstr "Alt Piksel Kenar Yumuşatma (Ultra Kalite)"
 
 msgid "Supersampling (2x)"
-msgstr ""
+msgstr "Süper örnekleme (2x)"
 
 msgid "Supersampling (4x)"
-msgstr ""
+msgstr "Süper örnekleme (4x)"
 
 msgid "Graphics (Fallback):"
-msgstr ""
+msgstr "Grafikler (Geri çekilmiş):"
 
 msgid "Fast Antialiasing"
-msgstr ""
+msgstr "Hızlı Kenar Yumuşatma"
 
 msgid "Balanced Antialiasing"
-msgstr ""
+msgstr "Dengeli Kenar Yumuşatma"
 
 msgid "High Quality Antialiasing"
-msgstr ""
+msgstr "Yüksek Kaliteli Kenar Yumuşatma"
 
 msgid "Helper Applications"
-msgstr ""
+msgstr "Yardımcı Uygulamalar"
 
 msgid "Text editor:"
-msgstr ""
+msgstr "Metin düzenleme:"
 
 msgid "System default PDF viewer"
-msgstr ""
+msgstr "Varsayılan PDF görüntüleyicisi"
 
 msgid "Other:"
-msgstr ""
+msgstr "Diğer:"
 
 msgid "User Interface"
-msgstr ""
+msgstr "Kullanıcı arayüzü"
 
 msgid "Icon scale:"
-msgstr ""
+msgstr "Simge ölçeği:"
 
 msgid "%"
-msgstr ""
+msgstr "%"
 
 msgid "Automatic"
-msgstr ""
+msgstr "Otomatik"
 
 msgid "Show icons in menus"
-msgstr ""
+msgstr "Menülerdeki simgeleri göster"
 
 msgid "Pan and Zoom"
-msgstr ""
+msgstr "Kaydır ve yakınlaştır"
 
 msgid "Ce&nter and warp cursor on zoom"
-msgstr ""
+msgstr "Yakı&nlaştırmada imleci ortala"
 
 msgid "Center the cursor on screen when zooming."
-msgstr ""
+msgstr "Yakınlaştırma yaparken imleci ekranda ortala."
 
 msgid "Use touchpad to pan"
-msgstr ""
+msgstr "Kaydırmak için dokunmatik fareyi kullan"
 
 msgid ""
 "Enable touchpad-friendly controls (pan with scroll action, zoom with Ctrl"
 "+scroll)."
 msgstr ""
+"Dokunmatik fareye uygun denetimleri etkinleştirin (Ctrl + kaydırmayla "
+"yakınlaştırma)."
 
 msgid "&Pan while moving object"
-msgstr ""
+msgstr "&Nesneyi taşırken kaydır"
 
 msgid ""
 "When drawing a track or moving an item, pan when approaching the edge of the "
 "display."
 msgstr ""
+"Çizim yaparken veya bir öğeyi taşırken, ekranın kenarına yaklaştığında yatay "
+"kaydır."
 
 msgid "Type filter text"
-msgstr ""
+msgstr "Süzgeç için metni girin"
 
 msgid "Reset Hotkeys"
-msgstr ""
+msgstr "Kısayol Tuşlarını Sıfırla"
 
 msgid "Undo all changes made so far in this dialog"
-msgstr ""
+msgstr "Bu iletişim kutusunda yapılan tüm değişiklikleri geri al"
 
 msgid "Set to Defaults"
-msgstr ""
+msgstr "Varsayılanlara Ayarla"
 
 msgid "Set all hotkeys to the built-in KiCad defaults"
-msgstr ""
+msgstr "Tüm kısayol tuşlarını yerleşik KiCad varsayılanlarına ayarlama"
 
 msgid "Import..."
-msgstr ""
+msgstr "İthal..."
 
 msgid ""
 "Import hotkey definitions from an external file, replacing the current values"
@@ -1971,64 +2022,64 @@ msgid "Default"
 msgstr ""
 
 msgid "French"
-msgstr ""
+msgstr "Fransızca"
 
 msgid "Finnish"
-msgstr ""
+msgstr "Fince"
 
 msgid "Spanish"
-msgstr ""
+msgstr "İspanyolca"
 
 msgid "Portuguese"
-msgstr ""
+msgstr "Portekizce"
 
 msgid "Italian"
-msgstr ""
+msgstr "İtalyanca"
 
 msgid "German"
-msgstr ""
+msgstr "Almanca"
 
 msgid "Greek"
-msgstr ""
+msgstr "Yunanca"
 
 msgid "Slovenian"
-msgstr ""
+msgstr "Slovence"
 
 msgid "Slovak"
-msgstr ""
+msgstr "Slovence"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Macarca"
 
 msgid "Polish"
-msgstr ""
+msgstr "Polonyaca"
 
 msgid "Czech"
-msgstr ""
+msgstr "Çekce"
 
 msgid "Russian"
-msgstr ""
+msgstr "Rusca"
 
 msgid "Korean"
-msgstr ""
+msgstr "Korece"
 
 msgid "Chinese simplified"
-msgstr ""
+msgstr "Çince basitleştirilmiş"
 
 msgid "Chinese traditional"
-msgstr ""
+msgstr "Çince "
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanca"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Flemenkçe"
 
 msgid "Japanese"
-msgstr ""
+msgstr "Japonca"
 
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulgarca"
 
 msgid "Lithuanian"
 msgstr ""
@@ -2083,7 +2134,7 @@ msgid "OUTPUTSTREAM_OUTPUTFORMATTER write error"
 msgstr ""
 
 msgid "Colors"
-msgstr ""
+msgstr "Renkler"
 
 msgid "Cancel current tool"
 msgstr ""
@@ -2126,22 +2177,22 @@ msgid "Grid Options"
 msgstr ""
 
 msgid "Dots"
-msgstr ""
+msgstr "Noktalar"
 
 msgid "Lines"
-msgstr ""
+msgstr "Çizgiler"
 
 msgid "Small crosses"
-msgstr ""
+msgstr "Küçük artılar"
 
 msgid "Grid Style"
-msgstr ""
+msgstr "Izgara stili"
 
 msgid "Grid thickness:"
-msgstr ""
+msgstr "Izgara Kalınlığı:"
 
 msgid "px"
-msgstr ""
+msgstr "px"
 
 msgid "Min grid spacing:"
 msgstr ""
