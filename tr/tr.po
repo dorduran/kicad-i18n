@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 21:33+0100\n"
-"PO-Revision-Date: 2019-12-27 01:16+0000\n"
+"PO-Revision-Date: 2019-12-27 02:54+0000\n"
 "Last-Translator: \n"
 "Language-Team: Erkut Uygun <erkut.uygun@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1387,7 +1387,7 @@ msgid "Browse..."
 msgstr "Araştır..."
 
 msgid "Page Settings"
-msgstr "Sayfa Ayarları."
+msgstr "Sayfa Ayarları"
 
 msgid "Print"
 msgstr "Baskı"
@@ -1579,90 +1579,94 @@ msgstr "İthal..."
 msgid ""
 "Import hotkey definitions from an external file, replacing the current values"
 msgstr ""
+"Kısayol tuş tanımlarını değiştirmek için harici bir dosyadan yeni kısayol "
+"tanımlarını alın"
 
 msgid "Export..."
-msgstr ""
+msgstr "İhraç..."
 
 msgid "Export these hotkey definitions to an external file"
-msgstr ""
+msgstr "Kısayol tuş tanımlarını harici bir dosyaya aktarın"
 
 msgid "Error: "
-msgstr ""
+msgstr "Hata: "
 
 msgid "Warning: "
-msgstr ""
+msgstr "Uyarı: "
 
 msgid "Info: "
-msgstr ""
+msgstr "Bilgi: "
 
 msgid "Save Report to File"
-msgstr ""
+msgstr "Raporu Dosyaya Kaydet"
 
 #, c-format
 msgid "Cannot write report to file \"%s\"."
-msgstr ""
+msgstr "Rapor dosyaya \"%s\" yazılamıyor."
 
 msgid "File save error"
-msgstr ""
+msgstr "Dosya kayıt hatası"
 
 msgid "Output Messages"
-msgstr ""
+msgstr "Çıktı İletileri"
 
 msgid "Show:"
-msgstr ""
+msgstr "Göster:"
 
 msgid "All"
-msgstr ""
+msgstr "Hepsi"
 
 msgid "Errors"
-msgstr ""
+msgstr "Hatalar"
 
 msgid "Warnings"
-msgstr ""
+msgstr "Uyarılar"
 
 msgid "Actions"
-msgstr ""
+msgstr "Eylemler"
 
 msgid "Infos"
-msgstr ""
+msgstr "Bilgiler"
 
 msgid "Save..."
-msgstr ""
+msgstr "Kaydet..."
 
 msgid "Filter"
-msgstr ""
+msgstr "Süzgeç"
 
 msgid "Could not use OpenGL, falling back to software rendering"
 msgstr ""
+"OpenGL donanım desteği kullanılamadı. Yazılım kullanarak görüntü "
+"oluşturulacak"
 
 msgid "clipboard"
-msgstr ""
+msgstr "pano"
 
 #, c-format
 msgid "Expecting \"%s\""
-msgstr ""
+msgstr "Beklenen \"%s\""
 
 #, c-format
 msgid "Unexpected \"%s\""
-msgstr ""
+msgstr "Beklenmeyen \"%s\""
 
 #, c-format
 msgid "%s is a duplicate"
-msgstr ""
+msgstr "\"%s\" suret"
 
 #, c-format
 msgid "need a NUMBER for \"%s\""
-msgstr ""
+msgstr "\"%s\" için bir SAYI gerekli"
 
 msgid "Un-terminated delimited string"
-msgstr ""
+msgstr "Sonlandırılmamış sınırlı dizi"
 
 msgid "String delimiter must be a single character of ', \", or $"
-msgstr ""
+msgstr "Dize sınırlayıcı ', \" veya $ karakterlerinden biri olmalıdır"
 
 #, c-format
 msgid "File \"%s\" was not found."
-msgstr ""
+msgstr "Dosya \"%s\" bulunamadı."
 
 #, c-format
 msgid ""
@@ -1671,40 +1675,46 @@ msgid ""
 " or\n"
 "\"%s\" could not be found."
 msgstr ""
+"Html veya pdf yardım dosyası\n"
+"\"%s\"\n"
+" veya\n"
+"\"%s\" bulunamadı."
 
 #, c-format
 msgid "Help file \"%s\" could not be found."
-msgstr ""
+msgstr "Yardım dosyası \"%s\" bulunamadı."
 
 #, c-format
 msgid ""
 "Could not launch the default browser.\n"
 "For information on how to help the KiCad project, visit %s"
 msgstr ""
+"Varsayılan tarayıcı başlatılamadı.\n"
+"KiCad projesine nasıl yardım edilebileceğini öğrenmek için ziyaret edin: %s"
 
 msgid "Get involved with KiCad"
-msgstr ""
+msgstr "KiCad'e dahil olun"
 
 msgid "Preferences"
-msgstr ""
+msgstr "Tercihler"
 
 msgid "Common"
-msgstr ""
+msgstr "Ortak"
 
 msgid "Hotkeys"
-msgstr ""
+msgstr "Kısayol tuşları"
 
 #, c-format
 msgid "You do not have write permissions to folder \"%s\"."
-msgstr ""
+msgstr "\"%s\" klasörüne yazma izniniz yok."
 
 #, c-format
 msgid "You do not have write permissions to save file \"%s\" to folder \"%s\"."
-msgstr ""
+msgstr "\"%s\" dosyasını \"%s\" klasörüne kaydetmek için yazma izniniz yok."
 
 #, c-format
 msgid "You do not have write permissions to save file \"%s\"."
-msgstr ""
+msgstr "\"%s\" dosyasını kaydetmek için yazma izniniz yok."
 
 #, c-format
 msgid ""
@@ -1714,42 +1724,45 @@ msgid ""
 "it was not saved properly.  Do you wish to restore the last saved edits you "
 "made?"
 msgstr ""
+"Bu oldukça olarak utanç verici!\n"
+"\"%s\" dosyası en son düzenlendiğinde düzgün kaydedilmemiş. \n"
+"En son yaptığınız düzenlemeleri geri yüklemek istiyor musunuz?"
 
 #, c-format
 msgid "Could not create backup file \"%s\""
-msgstr ""
+msgstr "Yedekleme dosyası \"%s\" oluşturulamadı"
 
 msgid "The auto save file could not be renamed to the board file name."
-msgstr ""
+msgstr "Otomatik kaydetme dosyası, kartın dosya adıyla adlandırılamadı."
 
 msgid "Doc Files"
-msgstr ""
+msgstr "Doc dosyaları"
 
 #, c-format
 msgid "Doc File \"%s\" not found"
-msgstr ""
+msgstr "Doc Dosyası \"%s\" bulunamadı"
 
 #, c-format
 msgid "Unknown MIME type for doc file \"%s\""
 msgstr ""
 
 msgid " X:"
-msgstr ""
+msgstr "X:"
 
 msgid " Y:"
-msgstr ""
+msgstr "Y:"
 
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgid "Italic"
-msgstr ""
+msgstr "İtalik"
 
 msgid "Bold"
-msgstr ""
+msgstr "Kalın"
 
 msgid "Bold+Italic"
-msgstr ""
+msgstr "Kalın+İtalik"
 
 msgid ""
 "The base path of locally installed system footprint libraries (.pretty "
@@ -2046,7 +2059,7 @@ msgid "Slovenian"
 msgstr "Slovence"
 
 msgid "Slovak"
-msgstr "Slovence"
+msgstr "Slovakça"
 
 msgid "Hungarian"
 msgstr "Macarca"
@@ -2058,7 +2071,7 @@ msgid "Czech"
 msgstr "Çekce"
 
 msgid "Russian"
-msgstr "Rusca"
+msgstr "Rusça"
 
 msgid "Korean"
 msgstr "Korece"
@@ -2067,7 +2080,7 @@ msgid "Chinese simplified"
 msgstr "Çince basitleştirilmiş"
 
 msgid "Chinese traditional"
-msgstr "Çince "
+msgstr "Çince"
 
 msgid "Catalan"
 msgstr "Katalanca"
@@ -2082,7 +2095,7 @@ msgid "Bulgarian"
 msgstr "Bulgarca"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litvanyaca"
 
 msgid "No default editor found, you must choose it"
 msgstr ""
