@@ -3,7 +3,11 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 21:33+0100\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2019-12-30 22:33+0000\n"
+=======
+"PO-Revision-Date: 2019-12-28 12:41+0000\n"
+>>>>>>> master
 "Last-Translator: \n"
 "Language-Team: Erkut Uygun <erkut.uygun@gmail.com>\n"
 "MIME-Version: 1.0\n"
