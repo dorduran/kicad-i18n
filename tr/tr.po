@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KiCad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 21:33+0100\n"
-"PO-Revision-Date: 2019-12-27 02:54+0000\n"
+"PO-Revision-Date: 2019-12-30 22:33+0000\n"
 "Last-Translator: \n"
 "Language-Team: Erkut Uygun <erkut.uygun@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1744,13 +1744,13 @@ msgstr "Doc Dosyası \"%s\" bulunamadı"
 
 #, c-format
 msgid "Unknown MIME type for doc file \"%s\""
-msgstr ""
+msgstr "Doc dosyası \"%s\" için bilinmeyen MIME tipi"
 
 msgid " X:"
-msgstr "X:"
+msgstr " X:"
 
 msgid " Y:"
-msgstr "Y:"
+msgstr " Y:"
 
 msgid "Normal"
 msgstr "Normal"
@@ -1768,25 +1768,31 @@ msgid ""
 "The base path of locally installed system footprint libraries (.pretty "
 "folders)."
 msgstr ""
+"Yerel olarak yüklenmiş sistem ayak izi kitaplıklarının (.pretty klasörleri) "
+"temel yolu."
 
 msgid "The base path of system footprint 3D shapes (.3Dshapes folders)."
-msgstr ""
+msgstr "Sistem ayak izi 3B şekillerinin (.3Dshapes klasörleri) temel yolu."
 
 msgid "The base path of the locally installed symbol libraries."
-msgstr ""
+msgstr "Yerel olarak yüklenen sembol kitaplıklarının temel yolu."
 
 msgid ""
 "Used by KiCad to define the URL of the repository of the official KiCad "
 "footprint libraries."
 msgstr ""
+"KiCad tarafından resmi KiCad ayak izi kitaplıklarının deposunun URL'sini "
+"tanımlamak için kullanılır."
 
 msgid "A directory containing project templates installed with KiCad."
-msgstr ""
+msgstr "KiCad ile yüklenmiş proje şablonlarını içeren dizin."
 
 msgid ""
 "Optional. Can be defined if you want to create your own project templates "
 "folder."
 msgstr ""
+"İsteğe bağlı. Kendi proje şablonları klasörünüzü oluşturmak istiyorsanız "
+"tanımlanabilir."
 
 msgid ""
 "Internally defined by KiCad (cannot be edited) and is set to the absolute "
@@ -1795,13 +1801,19 @@ msgid ""
 "For instance, ${KIPRJMOD}/libs/footprints.pretty can be defined as a folder "
 "containing a project specific footprint library named footprints.pretty."
 msgstr ""
+"KiCad tarafından dahili olarak tanımlanmıştır (düzenlenemez) ve şu anda "
+"yüklü olan proje dosyasının mutlak yoluna ayarlanır. Bu ortam değişkeni, şu "
+"anda yüklü olan projeye göre dosyaları ve yolları tanımlamak için "
+"kullanılabilir. Örneğin, $ {KIPRJMOD} /libs/footprints.pretty, footprints."
+"pretty adında projeye özgü bir ayak izi kitaplığı içeren bir klasör olarak "
+"tanımlanabilir."
 
 msgid "Deprecated version of KICAD_TEMPLATE_DIR."
-msgstr ""
+msgstr "KICAD_TEMPLATE_DIR'in kullanımdan kaldırılmış sürümü."
 
 #, c-format
 msgid "from %s : %s() line:%d"
-msgstr ""
+msgstr "dosya %s : %s() satır:%d"
 
 #, c-format
 msgid ""
@@ -1809,6 +1821,9 @@ msgid ""
 "\"%s\"\n"
 "line %d, offset %d"
 msgstr ""
+"%s daki giriş/kaynak\n"
+"\"%s\"\n"
+"satır %d, yer %d"
 
 #, c-format
 msgid ""
@@ -1821,109 +1836,121 @@ msgid ""
 "Full error text:\n"
 "%s"
 msgstr ""
+"KiCad dosyayı çalıştırdığınız sürümden daha yeni bir sürümle oluşturulduğu "
+"için açamadı\n"
+"Dosyayı açmak için KiCad'i daha yeni bir sürüme yükseltmeniz gerekir.\n"
+"\n"
+"Gereken KiCad sürümünün tarihi (veya daha yenisi):%s\n"
+"\n"
+"Tam hata metni:\n"
+"%s"
 
 msgid "The given path does not exist"
-msgstr ""
+msgstr "Verilen yol mevcut değil"
 
 msgid "3D model search path"
-msgstr ""
+msgstr "3B model arama yolu"
 
 msgid "Alias: "
-msgstr ""
+msgstr "Diğer ad: "
 
 msgid "This path: "
-msgstr ""
+msgstr "Bu yol: "
 
 msgid "Existing path: "
-msgstr ""
+msgstr "Mevcut yol: "
 
 msgid "Bad alias (duplicate name)"
-msgstr ""
+msgstr "Kullanılamaz takma ad (mevcut ad)"
 
 msgid "3D configuration directory is unknown"
-msgstr ""
+msgstr "3B yapılandırma dizini bilinmiyor"
 
 msgid "Write 3D search path list"
-msgstr ""
+msgstr "3D arama yolu listesi yazın"
 
 msgid "Could not open configuration file"
-msgstr ""
+msgstr "Yapılandırma dosyası açılamadı"
 
 msgid "Problems writing configuration file"
-msgstr ""
+msgstr "Yapılandırma dosyası yazılırken sorunla karşılaşıldı"
 
 msgid "Load Error"
-msgstr ""
+msgstr "Yükleme Hatası"
 
 msgid "Errors were encountered loading footprints:"
-msgstr ""
+msgstr "Ayak izleri yüklenirken karşılaşılan hatalar:"
 
 #, c-format
 msgid ""
 "Duplicate library nickname \"%s\" found in footprint library table file line "
 "%d"
 msgstr ""
+"Zaten mevcut olan kitaplık takma adı \"%s\", ayak izi kitaplığı tablosu "
+"dosya satırında %d bulundu"
 
 #, c-format
 msgid "fp-lib-table files contain no library with nickname \"%s\""
-msgstr ""
+msgstr "fp-lib-table dosyalarında \"%s\" takma adı olan bir kitaplık yok"
 
 #, c-format
 msgid "Cannot create global library table path \"%s\"."
-msgstr ""
+msgstr "\"%s\" genel kitaplık tablosu yolu oluşturulamıyor."
 
 #, c-format
 msgid "Command \"%s\" could not found"
-msgstr ""
+msgstr "\"%s\" komutu bulunamadı"
 
 #, c-format
 msgid ""
 "Problem while running the PDF viewer\n"
 "Command is \"%s\""
 msgstr ""
+"PDF görüntüleyiciyi çalıştırmada sorun var\n"
+"Verilen komut \"%s\""
 
 #, c-format
 msgid "Unable to find a PDF viewer for \"%s\""
-msgstr ""
+msgstr "\"%s\" için PDF görüntüleyici bulunamadı"
 
 msgid "Cut\tCTRL+X"
-msgstr ""
+msgstr "Kes\tCTRL+X"
 
 msgid "Clear selected cells placing original contents on clipboard"
-msgstr ""
+msgstr "Orijinal içerikleri panoya yerleştirerek seçilen hücreleri temizle"
 
 msgid "Copy\tCTRL+C"
-msgstr ""
+msgstr "Kopyala\tCTRL+C"
 
 msgid "Copy selected cells to clipboard"
-msgstr ""
+msgstr "Seçili hücreleri panoya kopyala"
 
 msgid "Paste\tCTRL+V"
-msgstr ""
+msgstr "Yapıştır\tCTRL+V"
 
 msgid "Paste clipboard cells to matrix at current cell"
-msgstr ""
+msgstr "Pano hücrelerini geçerli hücredeki matrise yapıştır"
 
 msgid "Select All\tCTRL+A"
-msgstr ""
+msgstr "Hepsini Seç\tCTRL+A"
 
 msgid "Select all cells"
-msgstr ""
+msgstr "Bütün hücreleri seç"
 
 msgid "Read Hotkey Configuration File:"
-msgstr ""
+msgstr "Kısayol Tuşu Yapılandırma Dosyasını Oku:"
 
 msgid "Write Hotkey Configuration File:"
-msgstr ""
+msgstr "Kısayol Tuşu Yapılandırma Dosyasını Yaz:"
 
 #, c-format
 msgid "Failed to load kiface library \"%s\"."
-msgstr ""
+msgstr "\"%s\" kiface kitaplığı yüklenemedi."
 
 #, c-format
 msgid ""
 "Could not read instance name and version symbol form kiface library \"%s\"."
-msgstr ""
+msgstr "Örnek adı ve sürüm sembolü kiface kitaplığından \"%s\" okunamadı."
 
 #, c-format
 msgid ""
@@ -1931,108 +1958,113 @@ msgid ""
 "\"%s\"\n"
 "could not be loaded\n"
 msgstr ""
+"Önemli Kurulum Hatası. Dosya:\n"
+"\"%s\"\n"
+"yüklenemedi\n"
 
 msgid "It is missing.\n"
-msgstr ""
+msgstr "Bulunamadı.\n"
 
 msgid "Perhaps a shared library (.dll or .so) file is missing.\n"
-msgstr ""
+msgstr "Belki de paylaşım kitaplığı (.dll or .so) dosyası eksik.\n"
 
 msgid ""
 "From command line: argv[0]:\n"
 "'"
 msgstr ""
+"Komut satırından: argv[0]:\n"
+"'"
 
 msgid "Block Move"
-msgstr ""
+msgstr "Blok Taşı"
 
 msgid "Block Drag"
-msgstr ""
+msgstr "Blok Sürükle"
 
 msgid "Drag item"
-msgstr ""
+msgstr "Öğeyi sürükle"
 
 msgid "Block Duplicate"
-msgstr ""
+msgstr "Blok Yinele"
 
 msgid "Block Delete"
-msgstr ""
+msgstr "Blok Sil"
 
 msgid "Block Copy"
-msgstr ""
+msgstr "Blok Kopyala"
 
 msgid "Block Paste"
-msgstr ""
+msgstr "Blok Yapıştır"
 
 msgid "Zoom to selection"
-msgstr ""
+msgstr "Seçilene yakınlaş"
 
 msgid "Block Flip"
-msgstr ""
+msgstr "Blok Çevir"
 
 msgid "Inches"
-msgstr ""
+msgstr "İnç"
 
 msgid "Hide grid"
-msgstr ""
+msgstr "Izgara sakla"
 
 msgid "Show grid"
-msgstr ""
+msgstr "Izgara göster"
 
 msgid "Units"
-msgstr ""
+msgstr "Birimler"
 
 msgid "Center"
-msgstr ""
+msgstr "Merkez"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Yakınlaştır"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Uzaklaştır"
 
 msgid "Redraw View"
-msgstr ""
+msgstr "Görünümü Yenile"
 
 msgid "Zoom to Fit"
-msgstr ""
+msgstr "Yakınlaştır ve Sığdır"
 
 msgid "Zoom"
-msgstr ""
+msgstr "Yakınlaştır"
 
 msgid "Zoom: "
-msgstr ""
+msgstr "Yakınlaştır:"
 
 msgid "Grid"
-msgstr ""
+msgstr "Izgara"
 
 msgid "Select Library"
-msgstr ""
+msgstr "Kitaplık Seç"
 
 msgid "New Library"
-msgstr ""
+msgstr "Yeni Kitaplık"
 
 msgid "Illegal character found in logical library name"
-msgstr ""
+msgstr "Kitaplık adında geçersiz karakter var"
 
 msgid "Illegal character found in revision"
-msgstr ""
+msgstr "Düzeltmede geçersiz karakter var"
 
 msgid "Unit"
-msgstr ""
+msgstr "Birim"
 
 msgid "Item"
-msgstr ""
+msgstr "Öğe"
 
 msgid "Marker Info"
-msgstr ""
+msgstr "İşaretçi Bilgisi"
 
 #, c-format
 msgid "The file \"%s\" was not fully read"
-msgstr ""
+msgstr "Dosya \"%s\" tamamen okunamadı"
 
 msgid "Default"
-msgstr ""
+msgstr "Varsayılan"
 
 msgid "French"
 msgstr "Fransızca"
@@ -2098,65 +2130,65 @@ msgid "Lithuanian"
 msgstr "Litvanyaca"
 
 msgid "No default editor found, you must choose it"
-msgstr ""
+msgstr "Varsayılan editör bulunamadı, bir düzenleyici seçmelisiniz"
 
 msgid "Executable file (*.exe)|*.exe"
-msgstr ""
+msgstr "Çalıştırılabilir dosya (*.exe)|*.exe"
 
 msgid "Executable file (*)|*"
-msgstr ""
+msgstr "Çalıştırılabilir dosya (*)|*"
 
 msgid "Select Preferred Editor"
-msgstr ""
+msgstr "Tercih Edilen Editör'ü seçin"
 
 #, c-format
 msgid "%s is already running. Continue?"
-msgstr ""
+msgstr "%s zaten çalışıyor. Devam etmek ister misiniz?"
 
 msgid "Set Language"
-msgstr ""
+msgstr "Dil Seçimi"
 
 msgid "Select application language (only for testing)"
-msgstr ""
+msgstr "Ugulama dili seçin (sadece test amaçlı)"
 
 #, c-format
 msgid "Unable to find \"%s\" template config file."
-msgstr ""
+msgstr "\"%s\" şablon yapılandırma dosyası bulunamadı."
 
 msgid "Error copying project file template"
-msgstr ""
+msgstr "Proje dosyası şablonu kopyalanırken hata oluştu"
 
 #, c-format
 msgid "Cannot create prj file \"%s\" (Directory not writable)"
-msgstr ""
+msgstr "\"%s\" prj dosyası oluşturulamıyor (Dizin yazılabilir değil)"
 
 msgid "Error loading project footprint library table"
-msgstr ""
+msgstr "Ayak izi kitaplığı tablosu yüklenirken hata oluştu"
 
 #, c-format
 msgid "Unable to open filename \"%s\" for reading"
-msgstr ""
+msgstr "\"%s\" dosyası okumak için açılamıyor"
 
 msgid "Maximum line length exceeded"
-msgstr ""
+msgstr "Maksimum satır uzunluğu aşıldı"
 
 msgid "Line length exceeded"
-msgstr ""
+msgstr "Satır uzunluğu aşıldı"
 
 msgid "OUTPUTSTREAM_OUTPUTFORMATTER write error"
-msgstr ""
+msgstr "OUTPUTSTREAM_OUTPUTFORMATTER yazma hatası"
 
 msgid "Colors"
 msgstr "Renkler"
 
 msgid "Cancel current tool"
-msgstr ""
+msgstr "Aracı iptal et"
 
 msgid "Zoom Auto"
-msgstr ""
+msgstr "Otomatik yakınlaştır"
 
 msgid "Zoom to Selection"
-msgstr ""
+msgstr "Seçilene yakınlaş"
 
 msgid "Toggle Always Show Cursor"
 msgstr ""
@@ -2166,16 +2198,16 @@ msgstr ""
 
 #, c-format
 msgid "Zoom: %.2f"
-msgstr ""
+msgstr "Yakınlaştırma:%.2f"
 
 msgid "Mirroring for Y axis is not supported yet"
-msgstr ""
+msgstr "Y ekseni etrafında yansıtma henüz desteklenmemektedir"
 
 msgid "Footprint not found"
-msgstr ""
+msgstr "Ayak izi bulunamadı"
 
 msgid "Loading Footprint Libraries"
-msgstr ""
+msgstr "Ayak İzi Kitaplıkları Yükleniyor"
 
 msgid "No default footprint"
 msgstr ""
@@ -3334,16 +3366,16 @@ msgid ""
 msgstr ""
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "+90"
-msgstr ""
+msgstr "+90"
 
 msgid "+180"
-msgstr ""
+msgstr "+180"
 
 msgid "-90"
-msgstr ""
+msgstr "-90"
 
 msgid "Select if the symbol is to be rotated when drawn"
 msgstr ""
